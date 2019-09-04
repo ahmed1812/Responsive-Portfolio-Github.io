@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+  /* Typography */
+  font-size: 18px;
+  line-height: 34px;
+  color: #777;
+
+  /* Visual */
+  background: url("../images/concrete_seamless.png");
+}
+
+.container{
+ margin: auto;
+ max-width:960px;
+ background-color:  beige;
+ margin-right:15px;
+ margin-left:15px;
+ margin-bottom: 30px;
+}
+.container1{
+  margin: auto;
+ max-width:960px;
+ 
+ }
+.active {
+  float: left;
+  max-width: 960px;
+  margin: auto;
+ 
+  
+}
+
+h2 {
+  
+  margin-left: 20px;
+  padding-bottom: 20px;
+  
+
+  /* Typography */
+  font-size: 30px;
+  
+
+  /* Visual */
+  border-bottom: 3px solid #ddd;
+
+ }
+  
+
+.cities {
+  max-width: 960px;
+  margin: auto;
+  
+}
+
+img {
+  
+  margin-right:30px;
+  margin-left:20px;
+  width: 300px;
+  height: 300p;
+  margin-bottom: 30px;
+  
+}
+p {
+  margin-right:30px;
+  margin-left:40px;
+  font-size: 30px;
+}
+
+
+  li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+    
+  }
+  #logo {
+    float: left;
+  
+    /* Box-model */
+    width: 250px;
+    height: 80px;
+  
+    /* Typography */
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+  
+    /* Visual */
+    background: #4aaaa5;
+  }
+  
+  
+  .footer {
+      display: flex;
+      justify-content: center;
+      padding: 5px;
+      background-color: black;
+      color: #666666ff;
+      
+      
+  }
+  .foo {
+      display: flex;
+      max-height: 5px;
+      margin-top: 400px;
+      
+      background-color: green;
+     
+  }
+  .span4 img {
+    margin-right: 10px;
+    }
+    .span4 .img-left {
+        float: left;
+    }
+    .span4 .img-right {
+        float: right;
+    }
+   
+
+
+    @media screen and (min-width: 400px) {
+      .container {
+        background-color: lightgreen;
+      }
+    }
+    
+    @media only screen and (min-width: 800px) {
+      .container {
+        background-color: lavender;
+      }
+    }
+
+button {
+  width: 100px;
+  height: 60px;
+  background-color: red;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+.navbar {
+  background-color: aliceblue;
+}
